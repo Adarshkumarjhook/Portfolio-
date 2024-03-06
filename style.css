@@ -1,17 +1,17 @@
 @font-face {
   font-family: normal;
-  src: url(/font/Spartan-Regular.ttf);
+  src: url(./font/Spartan-Regular.ttf);
 
 }
 
 @font-face {
   font-family: SemiBold;
-  src: url(/font/Spartan-SemiBold.ttf);
+  src: url(./font/Spartan-SemiBold.ttf);
 
 }
 @font-face {
   font-family: Bold;
-  src: url(/font/Spartan-Bold.ttf);
+  src: url(./font/Spartan-Bold.ttf);
 
 }
 
