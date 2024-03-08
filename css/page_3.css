@@ -1,4 +1,102 @@
 .page_3{
   width: 100%;
   min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+  background: var(--bg_color);
+}
+.page_3 .page_3_{
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page_3 .page_3_ .left
+{
+  width: 50%;
+  height: 100%;
+    background: #979393;
+    flex:1;
+
+}
+
+
+.page_3 .page_3_ .right
+{
+  width: 40%;
+  height: 100%;
+    overflow: scroll;
+    position: relative;
+
+}
+
+
+
+.page_3 .page_3_ .right .box
+{
+  width: 100%;
+  height: 100%;
+  background: #FF9696;
+}
+
+ .page_3 .page_3_ .right .screen 
+{
+  width: 100%;
+  height: 100%;
+  background: #FF0808;
+  position: relative;
+}
+
+ .page_3 .page_3_ .right .screen .phone{
+     width: 100%;
+     height: 100%;
+     background: #FF46D300;
+     position: absolute;
+ }
+
+ .page_3 .page_3_ .right .screen 
+ .screen_
+{
+       padding: 6.7vw 3vw 8.1vw 4vw;
+       width: 100%;
+       height: 100%;
+       background: #B8EC5E;
+}
+
+
+ .page_3 .page_3_ .right .screen 
+ .screen_ .screen__{
+     width: 100%;
+     height: 100%;
+     background: #5EEC88;
+     overflow: scroll;
+ }
+
+ .page_3 .page_3_ .right .screen 
+ .screen_ .screen__ .screen___{
+     width: 100%;
+     height: 100%;
+     background: #287B40;
+          overflow: scroll;
+
+ }
+
+ .page_3 .page_3_ .right .screen 
+ .screen_ .screen__ .screen___ .Google{
+     width: 100%;
+     height: 100%;
+
+ }
+
+
+
+
+
+
+.page_3 .page_3_ .right .screen .phone img{
+  object-fit: contain;
+  position: absolute;
+  
+  
 }

@@ -130,6 +130,16 @@ border: 0.5px solid silver;
   position: absolute;
   transform: rotate(90deg) translate(0%,-50%);
   z-index: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.page_2 .work_section .project .circle-extension .circle-extension_{
+   min-height: 10%;
+   width:100%;
+   background: #2F00FC;
+
 }
 
 
@@ -167,9 +177,14 @@ border: 0.5px solid silver;
   position: absolute;
   opacity: 0.5;
   z-index: 0;
-  
-
 }
+
+.work_section .vertical-line .vertical-line_{
+ min-height: 3vh;
+  width:2px;
+  background: var(--color_2);
+}
+
 
 
 
