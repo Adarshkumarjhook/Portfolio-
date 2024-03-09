@@ -3,100 +3,102 @@
   min-height: 100vh;
   position: relative;
   overflow: hidden;
-  background: var(--bg_color);
 }
-.page_3 .page_3_{
+
+
+    .swiper {
+      width: 100%;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 90vw;
+      height: 300px;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+    }
+    
+    
+    
+    
+    .text_page3{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+     .text_page3 h1{
+       padding: 1vw 2.5vw;
+       margin-top: 3vw;
+       border: 3px solid var(--color_1);
+       border-radius: 10px;
+       font-size: 3vw;
+       color: var(--color_1);
+     }
+
+
+.img_contact_me{
+  transform: scale(0.8);
+}
+
+.contact{
   width: 100%;
-  height: 50vh;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.page_3 .page_3_ .left
-{
-  width: 50%;
-  height: 100%;
-    background: #979393;
-    flex:1;
-
+  flex-direction: column;;
 }
 
 
-.page_3 .page_3_ .right
-{
-  width: 40%;
-  height: 100%;
-    overflow: scroll;
-    position: relative;
-
+.contact label{
+  text-align: left;
+  width: 80%;
+  padding: 1vw 0;
+ font-size: 2vw;
+ display: flex;
+ align-items: center;
+ justify-content: flex-start;
 }
 
-
-
-.page_3 .page_3_ .right .box
-{
-  width: 100%;
-  height: 100%;
-  background: #FF9696;
+.contact input {
+  width: 80%;
+  outline: none;
+  border: 0.5px solid black;
+  border-radius: 5px;
+  height: 6vw;
+  padding: 2vw;
+  font-size: 2vw;
 }
 
- .page_3 .page_3_ .right .screen 
-{
-  width: 100%;
-  height: 100%;
-  background: #FF0808;
-  position: relative;
-}
-
- .page_3 .page_3_ .right .screen .phone{
-     width: 100%;
-     height: 100%;
-     background: #FF46D300;
-     position: absolute;
- }
-
- .page_3 .page_3_ .right .screen 
- .screen_
-{
-       padding: 6.7vw 3vw 8.1vw 4vw;
-       width: 100%;
-       height: 100%;
-       background: #B8EC5E;
-}
-
-
- .page_3 .page_3_ .right .screen 
- .screen_ .screen__{
-     width: 100%;
-     height: 100%;
-     background: #5EEC88;
-     overflow: scroll;
- }
-
- .page_3 .page_3_ .right .screen 
- .screen_ .screen__ .screen___{
-     width: 100%;
-     height: 100%;
-     background: #287B40;
-          overflow: scroll;
-
- }
-
- .page_3 .page_3_ .right .screen 
- .screen_ .screen__ .screen___ .Google{
-     width: 100%;
-     height: 100%;
-
- }
-
-
-
-
-
-
-.page_3 .page_3_ .right .screen .phone img{
-  object-fit: contain;
-  position: absolute;
+.contact button{
+margin-top: 2vw;
+background: var(--color_1);
+color: #FFFFFF;
+  width: 80%;
+  outline: none;
+  border: 0.5px solid black;
+  border-radius: 5px;
+  height: 6vw;
   
-  
+}
+
+
+
+
+.contact #message {
+  width: 80%;
+  outline: none;
+  border: 0.5px solid black;
+  border-radius: 5px;
+  height: 15vw;
+    padding: 2vw;
+    font-size: 2vw;
+
 }
